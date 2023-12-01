@@ -28,7 +28,102 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-
+stories:
+  AskQuestion_0:
+  - intent: intent_0
+  - action: utter_0
+  AskQuestion_1:
+  - intent: intent_1
+  - action: utter_1
+  AskQuestion_2:
+  - intent: intent_2
+  - action: utter_2
+  AskQuestion_3:
+  - intent: intent_3
+  - action: utter_3
+  AskQuestion_4:
+  - intent: intent_4
+  - action: utter_4
+stories:
+  AskQuestion_0:
+  - intent: intent_0
+  - action: utter_0
+  AskQuestion_1:
+  - intent: intent_1
+  - action: utter_1
+  AskQuestion_2:
+  - intent: intent_2
+  - action: utter_2
+  AskQuestion_3:
+  - intent: intent_3
+  - action: utter_3
+  AskQuestion_4:
+  - intent: intent_4
+  - action: utter_4
+stories:
+  AskQuestion_0:
+  - intent: intent_0
+  - action: utter_0
+  AskQuestion_1:
+  - intent: intent_1
+  - action: utter_1
+  AskQuestion_2:
+  - intent: intent_2
+  - action: utter_2
+  AskQuestion_3:
+  - intent: intent_3
+  - action: utter_3
+  AskQuestion_4:
+  - intent: intent_4
+  - action: utter_4
+stories:
+  AskQuestion_0:
+  - intent: intent_0
+  - action: utter_0
+  AskQuestion_1:
+  - intent: intent_1
+  - action: utter_1
+  AskQuestion_2:
+  - intent: intent_2
+  - action: utter_2
+  AskQuestion_3:
+  - intent: intent_3
+  - action: utter_3
+  AskQuestion_4:
+  - intent: intent_4
+  - action: utter_4
+stories:
+  AskQuestion_0:
+  - intent: intent_0
+  - action: utter_0
+  AskQuestion_1:
+  - intent: intent_1
+  - action: utter_1
+  AskQuestion_2:
+  - intent: intent_2
+  - action: utter_2
+  AskQuestion_3:
+  - intent: intent_3
+  - action: utter_3
+  AskQuestion_4:
+  - intent: intent_4
+  - action: utter_4
+stories:
+  AskQuestion_0:
+  - intent: intent_0
+  - action: utter_0
+  AskQuestion_1:
+  - intent: intent_1
+  - action: utter_1
+  AskQuestion_2:
+  - intent: intent_2
+  - action: utter_2
+  AskQuestion_3:
+  - intent: intent_3
+  - action: utter_3
+  AskQuestion_4:
+  - intent: intent_4
+  - action: utter_4
 stories:
   AskQuestion_0:
   - intent: intent_0

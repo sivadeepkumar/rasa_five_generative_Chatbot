@@ -10,11 +10,6 @@
 # with open("data/nlu.yml", "w") as file:
 #     yaml.dump(training_data, file)
 
-
-
-
-
-
 from my_html_parser import qna_data
 import yaml
 import pprint
@@ -30,25 +25,25 @@ for heading, examples in qna_data.items():
     # Prepare response data
     utter = "utter_" + str(count)
     responses_data[utter] = [{"text": examples}]
-    pprint.pprint(responses_data)
+    # pprint.pprint(responses_data)
     # Prepare stories data
     stories_data["AskQuestion_"+str(count)] = [{"intent": intent}, {"action": utter}]
     count += 1
-    pprint.pprint(stories_data)
+    # pprint.pprint(stories_data)
 
 
 
-# Save training data to nlu.yml
-with open("data/nlu.yml", "w") as file:
-    yaml.dump(training_data, file)
+# # Save training data to nlu.yml
+# with open("data/nlu.yml", "w") as file:
+#     yaml.dump(training_data, file)
 
-# Save response data to domain.yml
-with open("domain.yml", "a") as file:
-    yaml.dump({"responses": responses_data}, file)
+# # Save response data to domain.yml
+# with open("domain.yml", "a") as file:
+#     yaml.dump({"responses": responses_data}, file)
 
-# Save stories data to stories.yml
-with open("data/stories.yml", "a") as file:
-    yaml.dump({"stories": stories_data}, file)
+# # Save stories data to stories.yml
+# with open("data/stories.yml", "a") as file:
+#     yaml.dump({"stories": stories_data}, file)
 
 
 
