@@ -1,0 +1,12 @@
+nlu:
+- examples: Add Groups
+  intent: intent_0
+- examples: Add a new group
+  intent: intent_1
+- examples: Related Topics
+  intent: intent_2
+- examples: Delete Groups
+  intent: intent_3
+- examples: Welcome to the Asset Panda Knowledge Center
+  intent: intent_4
+version: '2.0'
