@@ -1,0 +1,12 @@
+# Ignore virtual environment files
+env/
+# Ignore training data and model files
+data/
+models/
+# Ignore log files
+logs/
+# Ignore cached files
+__pycache__/
+*.pyc
+# Ignore local configuration files
+*.env
